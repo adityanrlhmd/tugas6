@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+body {}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#first {
+    background: url(./asset/image.png);
+    width: 100%;
+    height: 804px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+    max-width: 1200px;
+    z-index: 2;
+}
+
+nav {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+}
+
+nav .gambarnav {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav .gambarnav img {
+    width: 30%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 20px;
+    display: inline;
+}
+
+nav li:nth-child(4) {
+    margin-right: 0px;
+}
+
+
+
+.atas {
+    left: 0;
+    top: 0;
+    position: absolute;
+    background-color: #060826;
+    opacity: 0.8;
+    width: 100%;
+    height: 804px;
+    z-index: 1;
+}
+
+.konten {
+    display: flex;
+    margin: 160px auto;
+}
+
+.konten .kiri {
+    width: 60%;
+}
+
+.konten .kiri .head ul {
+    display: flex;
+}
+
+.konten .kiri .head a {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+hr {
+    margin-right: 10px;
+    justify-content: center;
+    width: 20px;
+    margin-top: 10px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.konten .kiri .isi ul>li {
+    margin: 40px 0px 40px 0px;
+}
+
+.konten .kiri .isi ul>li a {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.konten .kanan {
+    margin: auto;
+    display: flex;
+    color: white;
+    width: 40%;
+    z-index: 20;
+    justify-content: center;
+}
+
+.konten .isikanan h1 {
+    justify-content: center;
+    color: #0E76A8;
+}
+
+.konten .kanan .isikanan h1 {
+    font-size: 46px;
+}
+
+.konten .kanan .isikanan p {
+    text-align: justify;
+    line-height: 30px;
+    font-weight: lighter;
+}
+
+.atasgambar {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: url(./asset/konten.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    width: 100%;
+    height: 804px;
+}
+
+#second {
+    position: static;
+    z-index: 0;
+    width: 100%;
+    height: 632px;
+}
+
+#second .judul {
+    margin-bottom: 40px;
+}
+
+#second .judul h3 {
+    font-size: 36px;
+}
+
+#second .judul h1 {
+    font-size: 36px;
+    color: #0E76A8;
+}
+
+#second .dua {
+    padding: 60px 0;
+}
+
+#second .isibawah {
+    display: flex;
+}
+
+#second .isibawah .gambarkiri {
+    width: 60%;
+}
+
+#second .isibawah .gambarkiri img {
+    width: 491.44px;
+}
+
+#second .kontenkanan {
+    width: 40%;
+}
+
+#second .kontenkanan h1 {
+    font-size: 36px;
+}
+
+#second .kontenkanan p {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #808080;
+    margin: 20px 0;
+}
+
+#second .kontenkanan .button {
+    display: flex;
+}
+
+#second .kontenkanan .button .tombolsatu {
+    height: 45px;
+    padding: 0 20px;
+    border: 2px solid black;
+    background: transparent;
+    border-radius: 100px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#second .kontenkanan .button .tomboldua {
+    height: 45px;
+    padding: 0 20px;
+    border: 2px solid black;
+    background: transparent;
+    border-radius: 100px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#second .button button:nth-child(1) {
+    margin-right: 20px;
+}
+
+#second .kontenkanan .tomboltiga {
+    height: 40px;
+    background-color: #0E76A8;
+    border: none;
+    padding: 0 30px;
+    color: white;
+    margin: 30px 0;
+}
+
+#third {
+    width: 100%;
+    height: 687px;
+    background-color: #1F211D;
+}
+
+#third .tiga {
+    display: flex;
+    padding: 100px 0;
+}
+
+#third .bagkiri {
+    width: 50%;
+}
+
+#third .bagkiri h1 {
+    color: #0E76A8;
+    font-size: 45px;
+}
+
+#third .bagkiri form {
+    width: 95%;
+}
+
+#third .bagkiri .tombolshare {
+    background-color: #0E76A8;
+    height: 45px;
+    width: 162px;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#third .bagkanan {
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+}
+
+#third .bagkanan .copy {
+    margin-top: 130px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    color: white;
+}
+
+#third .bagkanan .footgambar {
+    display: flex;
+    margin-bottom: 80px;
+    justify-content: flex-end;
+}
+
+#third .bagkanan .footgambar img {
+    width: 80%;
+}
+
+#third .bagkanan .footsatu {
+    margin: 50px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#third .bagkanan .footsatu img {
+    margin-left: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+#third .bagkanan .footsatu p {
+    color: white;
+    text-align: right;
+    /* line-height: 40px; */
+    font-size: 20px;
+}
+
+#third .bagkanan .footdua {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#third .bagkanan .footdua img {
+    margin-left: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+#third .bagkanan .footdua p {
+    font-size: 20px;
+    color: white;
+}
+
+
+
+#third .row {
+    margin: 20px 0;
+}
+
+#third .row input,
+textarea {
+    width: 100%;
+    border-radius: 3px;
+    padding: 1em;
+    font-style: italic;
+    border: 1px solid black;
+}
